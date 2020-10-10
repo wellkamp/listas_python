@@ -1,6 +1,6 @@
 # Exercicio 7
 
-from Estrutura_sequencial.app_quadrado import Quadrado
+from estrutura_sequencial.app_quadrado import Quadrado
 
 
 def main():

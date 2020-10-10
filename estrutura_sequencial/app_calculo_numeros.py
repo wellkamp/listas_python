@@ -1,5 +1,5 @@
 # Exercicio 11
-from Estrutura_sequencial.app_calculo_numeros import Numeros
+from estrutura_sequencial.app_calculo_numeros import Numeros
 
 
 def main():

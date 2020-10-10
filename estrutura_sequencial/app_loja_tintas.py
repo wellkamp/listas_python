@@ -1,7 +1,7 @@
 # Exercicio 16 e 17
 
 
-from Estrutura_sequencial.app_loja_tintas import LojaTintas
+from estrutura_sequencial.app_loja_tintas import LojaTintas
 
 
 def main():

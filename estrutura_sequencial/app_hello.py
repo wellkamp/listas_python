@@ -1,4 +1,4 @@
-from Estrutura_sequencial.app_hello_world import Hello
+from estrutura_sequencial.app_hello_world import Hello
 
 
 def main():

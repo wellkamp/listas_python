@@ -1,5 +1,5 @@
 # Exercicio 4
-from Estrutura_sequencial.app_notas import Notas
+from estrutura_sequencial.app_notas import Notas
 
 
 def main():

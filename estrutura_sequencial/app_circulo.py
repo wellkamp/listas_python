@@ -1,4 +1,4 @@
-from Estrutura_sequencial.app_circulo import Circulo
+from estrutura_sequencial.app_circulo import Circulo
 
 
 def main():

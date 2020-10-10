@@ -1,4 +1,4 @@
-from Estrutura_sequencial.app_metro_p_c import MetroParaCentimetro
+from estrutura_sequencial.app_metro_p_c import MetroParaCentimetro
 
 
 def main():

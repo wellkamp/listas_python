@@ -1,6 +1,6 @@
 # Exercicio 14
 
-from Estrutura_sequencial.app_peso_adicional import MultaPesoExcedente
+from estrutura_sequencial.app_peso_adicional import MultaPesoExcedente
 
 
 def main():

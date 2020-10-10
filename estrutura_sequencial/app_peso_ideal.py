@@ -1,4 +1,4 @@
-from Estrutura_sequencial.app_peso_ideal import PesoIdeal
+from estrutura_sequencial.app_peso_ideal import PesoIdeal
 
 # Exercicio 12 e 13.
 

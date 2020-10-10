@@ -1,4 +1,4 @@
-from Estrutura_sequencial.app_salario import Salario
+from estrutura_sequencial.app_salario import Salario
 
 # Exericicio 8 e 15
 

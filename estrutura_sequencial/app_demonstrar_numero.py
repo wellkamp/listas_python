@@ -1,5 +1,5 @@
 # Exercicio 2
-from Estrutura_sequencial.app_demonstrar_numero import Demonstrar_numero
+from estrutura_sequencial.app_demonstrar_numero import Demonstrar_numero
 
 
 def main():

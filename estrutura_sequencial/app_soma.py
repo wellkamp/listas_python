@@ -1,6 +1,6 @@
 # Exercicio 3
 
-from Estrutura_sequencial.app_soma import Soma
+from estrutura_sequencial.app_soma import Soma
 
 
 def main():

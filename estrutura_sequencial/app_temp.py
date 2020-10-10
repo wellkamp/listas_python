@@ -1,4 +1,4 @@
-from Estrutura_sequencial.app_temperatura import Temperatura
+from estrutura_sequencial.app_temperatura import Temperatura
 
 
 def main():
