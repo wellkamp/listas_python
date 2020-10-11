@@ -8,9 +8,9 @@ class Hello:
 
     @property
     # Retorna o atributo hello
-    def get_hello(self):
+    def hello(self):
         return self.__hello
 
     # Imprimir no console o objeto
     def __str__(self):
-        return self.get_hello
+        return self.hello

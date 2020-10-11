@@ -7,7 +7,7 @@ def main():
         try:
             valor = MetroParaCentimetro(
                 input('Digite o valor para ser transformado em centimetros: '))
-            if valor.get_valor > 0:
+            if valor.valor > 0:
                 print(valor)
                 sair = True
             else:

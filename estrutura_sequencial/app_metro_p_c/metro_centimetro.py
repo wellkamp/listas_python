@@ -5,12 +5,12 @@ class MetroParaCentimetro:
 
     @property
     # Retorna o atributo valor
-    def get_valor(self):
+    def valor(self):
         return self.__valor
 
     # Converte metro(s) para centimentros
     def transformar(self):
-        return self.get_valor * 100
+        return self.valor * 100
 
     # Imprimir no console o objeto
     def __str__(self):

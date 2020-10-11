@@ -7,10 +7,10 @@ class Demonstrar_numero:
 
     @property
     # Retorna o atributo numero
-    def get_numero(self):
+    def numero(self):
         return self.__numero
 
     # Imprimir no console o objeto
     def __str__(self):
-        str1 = f'O número digitado foi {self.get_numero}'
+        str1 = f'O número digitado foi {self.numero}'
         return str1

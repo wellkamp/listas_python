@@ -10,7 +10,7 @@ class Circulo:
 
     @property
     # Retorna o valor do atributo raio
-    def get_raio(self):
+    def raio(self):
         return self.__raio
 
     # Calcula area

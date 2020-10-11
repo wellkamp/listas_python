@@ -8,7 +8,7 @@ def main():
     while sair is False:
         try:
             pesca = MultaPesoExcedente(input('Digite o peso do pescado: '))
-            if pesca.get_peso >= 0:
+            if pesca.peso >= 0:
                 print(pesca)
                 sair = True
             else:

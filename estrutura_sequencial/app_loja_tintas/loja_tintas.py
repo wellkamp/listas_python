@@ -17,12 +17,12 @@ class LojaTintas():
 
     @property
     # Retorna o valor de metros quadrados
-    def get_metros_quadrados(self):
+    def metros_quadrados(self):
         return self.__metros_quadrados
 
     # Cacula a quantidade de litros de tinta que irá usar por metro quadrado
     def calculo_litros_metros(self):
-        return round(self.get_metros_quadrados / LITRO_METRO_QUADRADO, 2)
+        return round(self.metros_quadrados / LITRO_METRO_QUADRADO, 2)
 
     # Calcula quantas latas de tinta irá precisar
     def calculo_lata_tinta(self):
@@ -42,7 +42,7 @@ class LojaTintas():
 
     # Função para validar dados
     def validar_dados(self):
-        if self.get_metros_quadrados < 0:
+        if self.metros_quadrados < 0:
             return False
 
     # Imprimir no console o objeto

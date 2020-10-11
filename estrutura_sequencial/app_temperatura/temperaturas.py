@@ -9,18 +9,18 @@ class Temperatura:
 
     @property
     # Retorna valor da temperatura
-    def get_temp(self):
+    def temperatura(self):
         return float(self.__temperatura)
 
     @property
     # Retorna a escolha de conversão
-    def get_tipo_temp(self):
+    def tipo_temperatura(self):
         return int(self.__tipo_temp)
 
     @property
     # Retorna o nome da temperatura
-    def get_nome_temp(self):
-        if self.get_tipo_temp == 1:
+    def nome_temperatura(self):
+        if self.tipo_temperatura == 1:
             return 'Celsius'
         else:
             return 'Fahrenheit'
@@ -28,16 +28,16 @@ class Temperatura:
     # Faz o calculo de conversão
     def converter_temperatura(self, valor):
         if valor == 1:
-            return round(5 * ((self.get_temp - 32) / 9), 3)
+            return round(5 * ((self.temperatura - 32) / 9), 3)
         else:
-            return round((self.get_temp * (9/5)) + 32, 3)
+            return round((self.temperatura * (9/5)) + 32, 3)
 
     # Função para retornar valores
     def validar_valores(self):
-        if self.get_tipo_temp < 1 or self.get_tipo_temp > 2:
+        if self.tipo_temperatura < 1 or self.tipo_temperatura > 2:
             return False
 
     # Imprimir o objeto no console
     def __str__(self):
-        str1 = f'\nTemperatura convertida: {round(self.converter_temperatura(self.get_tipo_temp), 3)} graus {self.get_nome_temp}'
+        str1 = f'\nTemperatura convertida: {round(self.converter_temperatura(self.tipo_temperatura), 3)} graus {self.nome_temperatura}'
         return str1

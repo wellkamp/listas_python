@@ -9,36 +9,36 @@ class PesoIdeal():
 
     @property
     # Retorna altura
-    def get_altura(self):
+    def altura(self):
         return float(self.__altura)
 
     @property
     # Retorna o sexo
-    def get_sexo(self):
+    def sexo(self):
         return float(self.__sexo)
 
     @property
     # Retorna o genero
-    def get_genero(self):
-        if self.get_sexo == 1:
+    def genero(self):
+        if self.sexo == 1:
             return 'Masculino'
         else:
             return 'Feminino'
 
     def validar_valores(self):
-        if self.get_altura < 0:
+        if self.altura < 0:
             return False
-        if self.get_sexo < 1 or self.get_sexo > 2:
+        if self.sexo < 1 or self.sexo > 2:
             return False
 
     # Função que calcula o peso ideal
     def calcula_peso_ideal(self):
-        if self.get_sexo == 1:
-            return round((72.7 * self.get_altura) - 58, 1)
+        if self.sexo == 1:
+            return round((72.7 * self.altura) - 58, 1)
         else:
-            return round((62.1 * self.get_altura) - 44.7, 1)
+            return round((62.1 * self.altura) - 44.7, 1)
 
     # Imprimir no console o objeto
     def __str__(self):
-        str1 = f'\nO peso ideal de uma pessoa com altura de {self.get_altura} metros e do sexo {self.get_genero} é {self.calcula_peso_ideal()}'
+        str1 = f'\nO peso ideal de uma pessoa com altura de {self.altura} metros e do sexo {self.genero} é {self.calcula_peso_ideal()}'
         return str1.replace('.', ',')

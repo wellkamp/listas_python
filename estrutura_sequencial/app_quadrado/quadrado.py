@@ -9,22 +9,22 @@ class Quadrado:
 
     @property
     # Retornar atributo base
-    def get_base(self):
+    def base(self):
         return float(self.__base)
 
     @property
     # Retornar atributo altura
-    def get_altura(self):
+    def altura(self):
         return float(self.__altura)
 
     # Função para validar valores
     def validar_valores(self):
-        if self.get_base < 0 or self.get_altura < 0:
+        if self.base < 0 or self.altura < 0:
             return False
 
     # Calculo da area
     def area(self):
-        return self.get_base * self.get_altura
+        return self.base * self.altura
 
     # Calculo do dobro da area
     def dobro_area(self):
@@ -32,4 +32,4 @@ class Quadrado:
 
     # Imprimir o objeto no console
     def __str__(self):
-        return f'O quadrado com {self.get_base} de base e {self.get_altura} de altura possui área de {self.area()} e o dobro da sua area é {self.dobro_area()}'
+        return f'O quadrado com {self.base} de base e {self.altura} de altura possui área de {self.area()} e o dobro da sua area é {self.dobro_area()}'
